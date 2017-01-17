@@ -1,0 +1,141 @@
+{
+  "hosts" : [ {
+    "title" : "Pavlos-MacBook-Air.local",
+    "threads" : [ {
+      "title" : "18081@Pavlos-MacBook-Air.local.main(1)",
+      "testCases" : [ {
+        "uid" : "ee21f4e4cd381374",
+        "name" : "Login",
+        "title" : "Login",
+        "time" : {
+          "start" : 1484616514286,
+          "stop" : 1484616545332,
+          "duration" : 31046
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "64ea0502b1b4d6d5",
+        "name" : "RealPropertySearch",
+        "title" : "Real property search",
+        "time" : {
+          "start" : 1484616545589,
+          "stop" : 1484616555891,
+          "duration" : 10302
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3342d88162ea454f",
+        "name" : "MarriageSearch",
+        "title" : "Marriage search",
+        "time" : {
+          "start" : 1484616555896,
+          "stop" : 1484616561385,
+          "duration" : 5489
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5cbc3b471377766d",
+        "name" : "CattleBrandsSearch",
+        "title" : "Cattle brands search",
+        "time" : {
+          "start" : 1484616561395,
+          "stop" : 1484616566742,
+          "duration" : 5347
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2d3d497f6d850e13",
+        "name" : "FinancingStatementsSearch",
+        "title" : "Financing statements search",
+        "time" : {
+          "start" : 1484616566746,
+          "stop" : 1484616572287,
+          "duration" : 5541
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2f368b924d899992",
+        "name" : "PlatsSearch",
+        "title" : "Plats search",
+        "time" : {
+          "start" : 1484616572288,
+          "stop" : 1484616577394,
+          "duration" : 5106
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6b1237710f4af224",
+        "name" : "ForeclosureSearch",
+        "title" : "Foreclosure search",
+        "time" : {
+          "start" : 1484616577397,
+          "stop" : 1484616583117,
+          "duration" : 5720
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c2c40afa53d8d998",
+        "name" : "AddDocumentToCart",
+        "title" : "Add document to cart",
+        "time" : {
+          "start" : 1484616583118,
+          "stop" : 1484616595250,
+          "duration" : 12132
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "95dd6ef6b990c07e",
+        "name" : "CheckPreviewPopup",
+        "title" : "Check preview popup",
+        "time" : {
+          "start" : 1484616595254,
+          "stop" : 1484616603054,
+          "duration" : 7800
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6025039b95d4d092",
+        "name" : "DownloadDocument",
+        "title" : "Download document",
+        "time" : {
+          "start" : 1484616603057,
+          "stop" : 1484616621212,
+          "duration" : 18155
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "50349c0219901ed",
+        "name" : "EmailDocument",
+        "title" : "Email document",
+        "time" : {
+          "start" : 1484616621217,
+          "stop" : 1484616637309,
+          "duration" : 16092
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2e33c0678e50e3c4",
+        "name" : "Logout",
+        "title" : "Logout",
+        "time" : {
+          "start" : 1484616637314,
+          "stop" : 1484616639925,
+          "duration" : 2611
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

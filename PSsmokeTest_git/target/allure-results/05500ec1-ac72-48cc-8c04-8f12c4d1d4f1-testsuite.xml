@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1484616513862" stop="1484616639936" version="1.4.17" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : PSsmokeTest</name>
+    <title>Default Suite : PSsmokeTest</title>
+    <test-cases>
+        <test-case start="1484616514286" stop="1484616545332" status="passed">
+            <name>Login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616545589" stop="1484616555891" status="passed">
+            <name>RealPropertySearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616555896" stop="1484616561385" status="passed">
+            <name>MarriageSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616561395" stop="1484616566742" status="passed">
+            <name>CattleBrandsSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616566746" stop="1484616572287" status="passed">
+            <name>FinancingStatementsSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616572288" stop="1484616577394" status="passed">
+            <name>PlatsSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616577397" stop="1484616583117" status="passed">
+            <name>ForeclosureSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616583118" stop="1484616595250" status="passed">
+            <name>AddDocumentToCart</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616595254" stop="1484616603054" status="passed">
+            <name>CheckPreviewPopup</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616603057" stop="1484616621212" status="passed">
+            <name>DownloadDocument</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616621217" stop="1484616637309" status="passed">
+            <name>EmailDocument</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1484616637314" stop="1484616639925" status="passed">
+            <name>Logout</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Pavlos-MacBook-Air.local"/>
+                <label name="thread" value="18081@Pavlos-MacBook-Air.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

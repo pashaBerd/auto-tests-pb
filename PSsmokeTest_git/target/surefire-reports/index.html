@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.kofile.search.psSmokeTest">
+              <span class="suite-name border-failed">com.kofile.search.psSmokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.kofile.search.psSmokeTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.kofile.search.psSmokeTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.kofile.search.psSmokeTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.kofile.search.psSmokeTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.kofile.search.psSmokeTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.kofile.search.psSmokeTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.kofile.search.psSmokeTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.kofile.search.psSmokeTest" class="hide-methods failed suite-com.kofile.search.psSmokeTest"> (hide)</a> <!-- hide-methods failed suite-com.kofile.search.psSmokeTest -->
+                      <a href="#" panel-name="suite-com.kofile.search.psSmokeTest" class="show-methods failed suite-com.kofile.search.psSmokeTest"> (show)</a> <!-- show-methods failed suite-com.kofile.search.psSmokeTest -->
+                    </span>
+                    <div class="method-list-content failed suite-com.kofile.search.psSmokeTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="AddDocumentToCart">AddDocumentToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.kofile.search.psSmokeTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.kofile.search.psSmokeTest" class="hide-methods passed suite-com.kofile.search.psSmokeTest"> (hide)</a> <!-- hide-methods passed suite-com.kofile.search.psSmokeTest -->
+                      <a href="#" panel-name="suite-com.kofile.search.psSmokeTest" class="show-methods passed suite-com.kofile.search.psSmokeTest"> (show)</a> <!-- show-methods passed suite-com.kofile.search.psSmokeTest -->
+                    </span>
+                    <div class="method-list-content passed suite-com.kofile.search.psSmokeTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="CattleBrandsSearch">CattleBrandsSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="CheckPreviewPopup">CheckPreviewPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="DownloadDocument">DownloadDocument</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="EmailDocument">EmailDocument</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="FinancingStatementsSearch">FinancingStatementsSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="ForeclosureSearch">ForeclosureSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="MarriageSearch">MarriageSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="PlatsSearch">PlatsSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.kofile.search.psSmokeTest" title="com.kofile.search.psSmokeTest" hash-for-method="RealPropertySearch">RealPropertySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.kofile.search.psSmokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.kofile.search.psSmokeTest" class="panel com.kofile.search.psSmokeTest">
+          <div class="suite-com.kofile.search.psSmokeTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kofile.search.psSmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddDocumentToCart">
+                  </a> <!-- AddDocumentToCart -->
+                  <span class="method-name">AddDocumentToCart</span>
+                  <div class="stack-trace">Element not found {#results-table span}
+Expected: exist
+Screenshot: file:/Users/pavloberdnyk/IdeaProjects/PSsmokeTestsSimple/build/reports/tests/1484613897890.0.png
+Timeout: 10 s.
+Caused by: NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#results-table span&quot;}
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:140)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:86)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:62)
+	at com.sun.proxy.$Proxy2.waitUntil(Unknown Source)
+	at com.kofile.search.psSmokeTest.AddDocumentToCart(psSmokeTest.java:102)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#results-table span&quot;}
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Pavlos-MacBook-Air.local&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, pageLoadStrategy=normal, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, pageLoadingStrategy=normal, cssSelectorsEnabled=true}]
+Session ID: 64e3b2f0-378a-e948-b651-088f3d88a25c
+*** Element info: {Using=css selector, value=#results-table span}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:28)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+	... 42 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#results-table span&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;Pavlos-MacBook-Air.local&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/bf/8fk4zrzn1zq1gh6zhtp9c4_r0000gn/T/anonymous4385556750404354996webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11187)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/bf/8fk4zrzn1zq1gh6zhtp9c4_r0000gn/T/anonymous4385556750404354996webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11196)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/bf/8fk4zrzn1zq1gh6zhtp9c4_r0000gn/T/anonymous4385556750404354996webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12705)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/bf/8fk4zrzn1zq1gh6zhtp9c4_r0000gn/T/anonymous4385556750404354996webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12710)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/bf/8fk4zrzn1zq1gh6zhtp9c4_r0000gn/T/anonymous4385556750404354996webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12652)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.kofile.search.psSmokeTest-class-failed -->
+          <div class="suite-com.kofile.search.psSmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kofile.search.psSmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CattleBrandsSearch">
+                  </a> <!-- CattleBrandsSearch -->
+                  <span class="method-name">CattleBrandsSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckPreviewPopup">
+                  </a> <!-- CheckPreviewPopup -->
+                  <span class="method-name">CheckPreviewPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadDocument">
+                  </a> <!-- DownloadDocument -->
+                  <span class="method-name">DownloadDocument</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmailDocument">
+                  </a> <!-- EmailDocument -->
+                  <span class="method-name">EmailDocument</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FinancingStatementsSearch">
+                  </a> <!-- FinancingStatementsSearch -->
+                  <span class="method-name">FinancingStatementsSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForeclosureSearch">
+                  </a> <!-- ForeclosureSearch -->
+                  <span class="method-name">ForeclosureSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MarriageSearch">
+                  </a> <!-- MarriageSearch -->
+                  <span class="method-name">MarriageSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlatsSearch">
+                  </a> <!-- PlatsSearch -->
+                  <span class="method-name">PlatsSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RealPropertySearch">
+                  </a> <!-- RealPropertySearch -->
+                  <span class="method-name">RealPropertySearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.kofile.search.psSmokeTest-class-passed -->
+        </div> <!-- panel com.kofile.search.psSmokeTest -->
+        <div panel-name="test-xml-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.kofile.search.psSmokeTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kofile.search.psSmokeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.kofile.search.psSmokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.kofile.search.psSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.kofile.search.psSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.kofile.search.psSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.kofile.search.psSmokeTest');
+function tableData_com.kofile.search.psSmokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login')
+data.setCell(0, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(0, 3, 27199);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DownloadDocument')
+data.setCell(1, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(1, 3, 17073);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EmailDocument')
+data.setCell(2, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(2, 3, 14587);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AddDocumentToCart')
+data.setCell(3, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(3, 3, 13464);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckPreviewPopup')
+data.setCell(4, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(4, 3, 12190);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'RealPropertySearch')
+data.setCell(5, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(5, 3, 9455);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MarriageSearch')
+data.setCell(6, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(6, 3, 5749);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ForeclosureSearch')
+data.setCell(7, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(7, 3, 5520);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CattleBrandsSearch')
+data.setCell(8, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(8, 3, 5055);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FinancingStatementsSearch')
+data.setCell(9, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(9, 3, 5036);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PlatsSearch')
+data.setCell(10, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(10, 3, 4973);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Logout')
+data.setCell(11, 2, 'com.kofile.search.psSmokeTest')
+data.setCell(11, 3, 2690);
+window.suiteTableData['com.kofile.search.psSmokeTest']= { tableData: data, tableDiv: 'times-div-com.kofile.search.psSmokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-com.kofile.search.psSmokeTest">
+              </div> <!-- times-div-com.kofile.search.psSmokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.kofile.search.psSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.kofile.search.psSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kofile.search.psSmokeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RealPropertySearch</span>
+                <span class="method-start">27202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MarriageSearch</span>
+                <span class="method-start">36658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CattleBrandsSearch</span>
+                <span class="method-start">42408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FinancingStatementsSearch</span>
+                <span class="method-start">47464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PlatsSearch</span>
+                <span class="method-start">52501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ForeclosureSearch</span>
+                <span class="method-start">57475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddDocumentToCart</span>
+                <span class="method-start">62996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckPreviewPopup</span>
+                <span class="method-start">76472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DownloadDocument</span>
+                <span class="method-start">88663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EmailDocument</span>
+                <span class="method-start">105742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">120330 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
